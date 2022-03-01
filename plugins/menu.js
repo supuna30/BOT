@@ -3,7 +3,7 @@ let fs = require('fs')
 let path = require('path')
 let levelling = require('../lib/levelling')
 let tags = {
-  'main': 'MENU UTAMA',
+  'main': 'MENU ALL',
   'maker': 'MENU MAKER',
   'game': 'MENU GAME',
   'rpg': 'MENU RPG',
@@ -29,8 +29,8 @@ const defaultMenu = {
   before: `
 ╭────ꕥ %me ꕥ────
 │✾ Version: %version
-│✾ Library: Baileys-MD
-│✾ Mode: ${global.opts['self'] ? 'Self' : 'publik'}
+│✾ Library: Baileys
+│✾ Mode: ${global.opts['self'] ? 'Self' : 'public'}
 │✾ Runtime: %uptime
 ╰❑
 ╭─❑ 「 INFO USER 」 ❑──
@@ -42,10 +42,8 @@ const defaultMenu = {
 │ ✾ Level: %level
 │ ✾ Role: %role
 ╰❑
-╭─❑ 「 INFORMASI 」 ❑──
-│ Bot ini masih tahap beta
-│ apabila ada bug/eror harap
-│ lapor ke owner
+╭─❑ 「 BOTKINGDOM 」 ❑──
+│ https://chat.whatsapp.com/CIDWlH7yzEsKombRDcTKcV
 ╰❑
 %readmore`.trimStart(),
   header: '╭─「 %category 」',
@@ -165,28 +163,28 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
            hydratedFooterText: wm,
            hydratedButtons: [{
              urlButton: {
-               displayText: '💠 Source Code',
-               url: 'https://youtu.be/LdB7EpcQwvA'
+               displayText: '💠 GROUP',
+               url: 'https://chat.whatsapp.com/CIDWlH7yzEsKombRDcTKcV'
              }
 
            },
              {
              quickReplyButton: {
-               displayText: '🧒 Owner',
-               id: '.owner',
+               displayText: 'SPEED 🤤',
+               id: '.ping',
              }
 
            },
                {
              quickReplyButton: {
-               displayText: '💲 Donasi',
-               id: '.donasi',
+               displayText: '💲 JOIN',
+               id: '.request',
              }
 
            },
            {
              quickReplyButton: {
-               displayText: '📍 Credits',
+               displayText: '📍 follow me',
                id: '.tqto',
              }
            }]
@@ -200,7 +198,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
          { messageId: template.key.id }
      )
   } catch (e) {
-    conn.reply(m.chat, 'Maaf, menu sedang error', m)
+    conn.reply(m.chat, 'දෝශයකි', m)
     throw e
   }
 }
