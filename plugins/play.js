@@ -9,7 +9,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
   let chat = global.db.data.chats[m.chat]
   let results = await yts(text)
   let vid = results.all.find(video => video.seconds < 3600)
-  if (!vid) throw 'Konten Tidak ditemukan'
+  if (!vid) throw 'හොයාගන්න බෑ ඉතින් 😒'
   let isVideo = /2$/.test(command)
   let yt = false
   let yt2 = false
@@ -25,15 +25,15 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
       m.reply(`Server ${server} error!${servers.length >= i + 1 ? '' : '\nmencoba server lain...'}`)
     }
   }
-  if (yt === false) throw 'semua server gagal'
-  if (yt2 === false) throw 'semua server gagal'
+  if (yt === false) throw 'සර්වර් එක ලෙප්ට්'
+  if (yt2 === false) throw 'සර්වර් බිසි'
   let { dl_link, thumb, title, filesize, filesizeF } = yt
 let anu =  `
 *Judul:* ${title}
-*Ukuran File Audio:* ${filesizeF}
-*Ukuran File Video:* ${yt2.filesizeF}
+*File Audio:* ${filesizeF}
+*File Video:* ${yt2.filesizeF}
 *Server y2mate:* ${usedServer}
-*link sumber:* 
+*link* 
 ${vid.url}
 
 `
@@ -71,7 +71,7 @@ ${vid.url}
 }
 handler.help = ['play'].map(v => v + ' <pencarian>')
 handler.tags = ['downloader']
-handler.command = ['play']
+handler.command = ['song']
 
 handler.exp = 0
 
