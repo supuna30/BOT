@@ -47,14 +47,14 @@ ${vid.url}
            hydratedButtons: [
              {
              quickReplyButton: {
-               displayText: 'video',
+               displayText: 'V͏I͏D͏E͏O͏',
                id: `.ytmp4 ${vid.url}`,
              }
 
             },
                {
              quickReplyButton: {
-               displayText: 'Audio',
+               displayText: 'A͏U͏D͏I͏O͏',
                id: `.ytmp3 ${vid.url}`,
              }
 
