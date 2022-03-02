@@ -29,7 +29,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
   if (yt2 === false) throw 'සර්වර් බිසි'
   let { dl_link, thumb, title, filesize, filesizeF } = yt
 let anu =  `
-*Judul:* ${title}
+*නම:* ${title}
 *File Audio:* ${filesizeF}
 *File Video:* ${yt2.filesizeF}
 *Server y2mate:* ${usedServer}
