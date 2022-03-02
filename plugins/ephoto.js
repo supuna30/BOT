@@ -57,7 +57,7 @@ ArtPaperCut
     if (!effect) return conn.reply(m.chat, listeffect, m)
     if (!teks) return conn.reply(m.chat, 'Uhm... Teksnya?', m)
 
-  await m.reply('Sedang membuat...')
+  await m.reply('රැදී සිටින්න..')
  let hasil = await conn.getBuffer(global.API('dapu', `/api/ephoto/${effect}`, {text: teks}, 'apikey'))
  let caption = `*ephoto*\n\nEffect : ${effect}`
 
