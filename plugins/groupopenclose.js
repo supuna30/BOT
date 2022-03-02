@@ -7,11 +7,11 @@ ${usedPrefix}${command} close'
   switch (text.toLowerCase()) {
     case 'open':  
       await conn.groupSettingUpdate(m.chat, 'not_announcement')
-      m.reply('sukses membuka group')
+      m.reply('විවෘත කරන ලදී 😎')
       break
     case 'close':
       await conn.groupSettingUpdate(m.chat, 'announcement')
-      m.reply('sukses menutup group')
+      m.reply('වසා දමන ලදී 🥴')
       break
     default:
       m.reply(`- untuk membuka group:
