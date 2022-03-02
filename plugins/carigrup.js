@@ -1,14 +1,14 @@
 let handler = async (m, { text, usedPrefix, command }) => {
-    if (!text) throw `uhm.. cari apa?\n\ncontoh:\n${usedPrefix + command} mabar`
+    if (!text) throw `බොට් ඇතුලත් කර සමූහයක් සාදගන්න මෙය භාවිතා කරන්න `
     let res = await carigroup(text, 'name')
-    if (!res.length) throw 'Group tidak ditemukan ¯\_(ツ)_/¯'
+    if (!res.length) throw 'කණ්ඩායම් හමු නොවීය ¯\_(ツ)_/¯'
     let teks = res.map(res => res.subject + '\n' + res.link).join('\n\n')
     m.reply(teks)
 }
-handler.help = ['carigrup <pencarian>']
+handler.help = ['creategroup <name>']
 handler.tags = ['tools']
 
-handler.command = /^carig(ro?up|c)/i
+handler.command = /^create(group|c)/i
 handler.register = false
 module.exports = handler
 
