@@ -527,16 +527,16 @@ Untuk mematikan fitur ini, ketik
 
 global.dfail = (type, m, conn) => {
     let msg = {
-        rowner: 'Perintah ini hanya dapat digunakan oleh _*OWWNER!1!1!*_',
-        owner: 'Perintah ini hanya dapat digunakan oleh _*Owner Bot*_!',
-        mods: 'Perintah ini hanya dapat digunakan oleh _*Moderator*_ !',
-        premium: 'Perintah ini hanya untuk member _*Premium*_ !',
-        group: 'Perintah ini hanya dapat digunakan di grup!',
-        private: 'Perintah ini hanya dapat digunakan di Chat Pribadi!',
-        admin: 'Perintah ini hanya untuk *Admin* grup!',
-        botAdmin: 'Jadikan bot sebagai *Admin* untuk menggunakan perintah ini!',
-        unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Manusia.16*',
-        restrict: 'Fitur ini di *disable*!'
+        rowner: 'මෙම විධානය භාවිතා කළ හැක්කේ _*OWNER හට පමණි!1!1!*_',
+        owner: 'මෙම විධානය භාවිතා කළ හැක්කේ _*Bot Owner හට පමණි*_!',
+        mods: 'මෙම විධානය භාවිතා කළ හැක්කේ _*Moderators හට පමණි*_ !',
+        premium: 'මෙම විධානය සාමාජිකයින් සඳහා පමණි _* වාරිකය*_ !',
+        group: 'මෙම විධානය භාවිතා කළ හැක්කේ කණ්ඩායම් වශයෙන් පමණි!',
+        private: 'මෙම විධානය භාවිතා කළ හැක්කේ පුද්ගලික කතාබස් වල පමණි!',
+        admin: 'මෙම විධානය *පරිපාලක* කණ්ඩායම සඳහා පමණි!',
+        botAdmin: 'මෙම විධානය භාවිතා කිරීමට bot * Admin * සාදන්න!',
+        unreg: 'කරුණාකර ටයිප් කිරීමෙන් මෙම විශේෂාංගය භාවිතා කිරීමට ලියාපදිංචි වන්න:\n\n*#නම් ලැයිස්තුව.වයස*\n\nඋදාහරණය: *#මිනිසුන්ගේ ලැයිස්තුව.16*',
+        restrict: 'මෙම විශේෂාංගය *අබල කර ඇත*!'
     }[type]
     if (msg) return m.reply(msg)
 }
