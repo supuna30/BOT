@@ -6,7 +6,7 @@ let handler = async (m, { conn, args, isPrems, isOwner, usedPrefix, command }) =
 
   process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
 
-  if (!args || !args[0]) throw `Harap masukkan URL Youtube yang ingin di download!\n\nContoh: ${usedPrefix + command} https://youtu.be/zyJJlPSeEpo`
+  if (!args || !args[0]) throw `😒`
 
   let chat = global.db.data.chats[m.chat]
 
