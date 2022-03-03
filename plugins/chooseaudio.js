@@ -87,7 +87,7 @@ let anu =  `
 
              quickReplyButton: {
 
-               displayText: 'DOCUMENT FILE',
+               displayText: 'DOCUMENT FILE 📑',
 
                id: `.ytmp3 ${vid.url}`,
 
@@ -99,7 +99,7 @@ let anu =  `
 
              quickReplyButton: {
 
-               displayText: 'A͏U͏D͏I͏O͏ FILE',
+               displayText: 'A͏U͏D͏I͏O͏ FILE 🎵',
 
                id: `.ytaa ${vid.url}`,
 
