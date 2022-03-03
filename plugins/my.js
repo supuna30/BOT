@@ -23,7 +23,7 @@ let anu = `╭───❑ 「 BALANCE 」 ❑────
            hydratedButtons: [{
              urlButton: {
                displayText: '💠 Source Code',
-               url: 'supun.ml'
+               url: 'supuna.ml'
              }
 
            },
