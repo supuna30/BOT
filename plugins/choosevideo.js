@@ -100,7 +100,7 @@ let anu =  `
 
                displayText: 'VIDEO 720P 🎥',
 
-               id: `.yt720p ${vid.url}`,
+               id: `.ytvv ${vid.url}`,
 
              }
 
