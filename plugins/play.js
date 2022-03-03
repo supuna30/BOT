@@ -48,7 +48,7 @@ ${vid.url}
              {
              quickReplyButton: {
                displayText: 'V͏I͏D͏E͏O͏',
-               id: `.ytmp4 ${vid.url}`,
+               id: `.video2 ${vid.url}`,
              }
 
             },
