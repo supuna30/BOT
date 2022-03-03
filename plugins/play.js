@@ -55,7 +55,7 @@ ${vid.url}
                {
              quickReplyButton: {
                displayText: 'A͏U͏D͏I͏O͏',
-               id: `.ytmp3 ${vid.url}`,
+               id: `.song2 ${vid.url}`,
              }
 
            }]
