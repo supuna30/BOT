@@ -110,7 +110,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
 
                         displayText: `🎵 Audio ${filesizeF}`,
 
-                        id: `.yta ${vid.url}`
+                        id: `.song2 ${vid.url}`
 
                     }
 
@@ -120,7 +120,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
 
                         displayText: `📽 Video ${yt2.filesizeF}`,
 
-                        id: `.ytmp4 ${vid.url}`
+                        id: `.video2 ${vid.url}`
 
                     }
 
@@ -162,7 +162,7 @@ handler.help = ['song'].map(v => v + ' <query>')
 
 handler.tags = ['downloader']
 
-handler.command = /^(dj|yt|play|lagu|p(d)?)$/i
+handler.command = /^(dj|song|play|lagu|p(d)?)$/i
 
 handler.exp = 3
 
