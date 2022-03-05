@@ -71,7 +71,7 @@ ${vid.url}
 }
 handler.help = ['play'].map(v => v + ' <pencarian>')
 handler.tags = ['downloader']
-handler.command = ['song']
+handler.command = ['yt']
 
 handler.exp = 0
 
