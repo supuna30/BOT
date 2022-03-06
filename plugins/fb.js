@@ -6,11 +6,11 @@ let handler = async (m, { conn, command, text }) => {
 
     if (!text) throw 'LINK'
 
-  let res = await xfar.facebook(text)
+  let res = await xa.Facebook(text)
 
 m.reply('*WAIT 😎...*')
 
-conn.sendFile(m.chat,res.medias[2].url, '', `Youtube Downloader
+conn.sendFile(m.chat,res.medias[2].url, '', `FB Downloader
 
 720p`, m)
 
