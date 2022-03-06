@@ -72,11 +72,11 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
 
   
 
-*නම :* ${title}
+📌*නම :* ${title}
 
-* File Audio:* ${filesizeF}
+🎧*File Audio:* ${filesizeF}
 
-* File Video:* ${yt2.filesizeF}
+🎥*File Video:* ${yt2.filesizeF}
 
 *Server y2mate:* ${usedServer}`
 
@@ -98,7 +98,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
 
                    urlButton: {
 
-                        displayText: '🌏 Url YouTube',
+                        displayText:  '📺 Go To YouTube',
 
                         url: `${vid.url}`
 
