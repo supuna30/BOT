@@ -2,7 +2,7 @@ let { performance } = require('perf_hooks')
 
 let handler = async (m, { conn }) => {
 
- let start = `Memulai mempercepat...`
+ let start = `WAIT BRO 😎...`
 
  let boost = `${pickRandom(['0','1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20'])}%`
 
@@ -32,7 +32,7 @@ let handler = async (m, { conn }) => {
 
    let speed = `${neww - old}`
 
-   let finish = `✔️Berhasil mempercepat Bot hingga\n${speed}milisec!`
+   let finish = `✔️ᗷᗝ丅 ᗷᗝᗝᔕ丅ᗴᗪ ᑎᗝᗯ \n${speed}milisec!`
 
      conn.reply(m.chat, finish, m)
 
