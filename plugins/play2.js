@@ -98,7 +98,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
 
                    urlButton: {
 
-                        displayText:  '📺 Go To YouTube',
+                        displayText:  '🌎 URL YouTube',
 
                         url: `${vid.url}`
 
