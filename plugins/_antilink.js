@@ -1,6 +1,6 @@
 let handler = m => m
 
-let linkRegex = /chat.whatsapp.com\/(?:invite\/)?([0-9A-Za-z]{20,24})/i
+let linkRegex = /https://chat.whatsapp.com/
 handler.before = async function (m, { isAdmin, isBotAdmin }) {
   if (m.isBaileys && m.fromMe) return true
   let chat = global.db.data.chats[m.chat];
