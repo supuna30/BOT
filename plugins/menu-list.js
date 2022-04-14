@@ -2,7 +2,7 @@
 //GUNAKAN MENU KE 2 YAH
 //CRETED BY HYZER OFFICIAL
 //JANGAN HAPUS NAMA SAYA, LU CUMA MAKE
-let { default: makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, downloadContentFromMessage, downloadHistory, proto, getMessage, generateWAMessageContent, prepareWAMessageMedia } = require('@adiwajshing/baileys')
+let { default: makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, downloadContentFromMessage, downloadHistory, proto, getMessage, generateWAMessageContent, prepareWAMessageMedia } = require('@danielteodoro/baileys-md')
 wm = global.wm
 let levelling = require('../lib/levelling')
 let fs = require('fs')
