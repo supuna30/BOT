@@ -245,14 +245,12 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
                 },{
                   "title": "SPEED BOT",
                   "description": "Menu Info",
-                  "rowId": `${_p}? ping`
-                }],
-                "title": "INFORMASI BOT"
+                  "rowId": `.? ping`
               }, {
                 "rows": [{
                   "title": `☰ ALL MENU`,
                   "description": " Menu All",
-                  "rowId": '${_p}? menu'
+                  "rowId": '.? m'
                 }
                   ],
                 "title": "LIST MENU"
