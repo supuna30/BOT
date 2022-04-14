@@ -34,7 +34,7 @@ let anu = `*── 「 TIKTOK 」 ──*`
 
            locationMessage: { 
 
-           jpegThumbnail: fs.readFileSync('./src/donasi.jpg')}, 
+           jpegThumbnail: fs.readFileSync('./media/tiktok.jpg')}, 
 
            hydratedFooterText: wm,
 
