@@ -252,7 +252,7 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
                 "rows": [{
                   "title": `☰ ALL MENU`,
                   "description": " Menu All",
-                  "rowId": '.menu'
+                  "rowId": '.menu2'
                 }
                   ],
                 "title": "LIST MENU"
