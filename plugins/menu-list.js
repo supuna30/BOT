@@ -252,7 +252,7 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
                 "rows": [{
                   "title": `☰ SEMUA PERINTAH`,
                   "description": " Menu All",
-                  "rowId": '.menu   
+                  "rowId": '.menu`
                 }
                   ],
                 "title": "LIST MENU"
