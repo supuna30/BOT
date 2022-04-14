@@ -245,14 +245,14 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
                 },{
                   "title": "SPEED BOT",
                   "description": "Menu Info",
-                  "rowId": `.ping`
+                  "rowId": '.ping`
                 }],
                 "title": "INFORMASI BOT"
               }, {
                 "rows": [{
                   "title": `☰ ALL MENU`,
                   "description": " Menu All",
-                  "rowId": '.menu2'
+                  "rowId": '.help'
                 }
                   ],
                 "title": "LIST MENU"
@@ -361,7 +361,7 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
 }
 handler.help = ['menu', 'help', '?']
 handler.tags = ['main']
-handler.command = /^(menu|help|\?)$/i
+handler.command = /^(menu|list|\?)$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false
