@@ -48,7 +48,7 @@ let handler = async (m, { conn, args, isPrems, isOwner, usedPrefix, command }) =
 
             mediaType: 2,
 
-          thumbnail: await (await fetch('https://telegra.ph/file/76f08bd0aeb06c3e0c0d5.jpg')).buffer(),
+          thumbnail: await (await fetch('https://telegra.ph/file/4bfec25f504f75e14e236.jpg')).buffer(),
 
          mediaUrl: `https://youtu.be/t0Q2otsqC4I`
 
