@@ -157,7 +157,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
          hydratedTemplate: {
            hydratedContentText: text.trim(),
            locationMessage: { 
-           jpegThumbnail: fs.readFileSync('./src/welcome.jpg') },
+           jpegThumbnail: fs.readFileSync('./media/kingdom.jpg') },
            hydratedFooterText: `🅛=limit 🅟=premium`,
            hydratedButtons: [{
              urlButton: {
