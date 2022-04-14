@@ -2,7 +2,7 @@
 //GUNAKAN MENU KE 2 YAH
 //CRETED BY HYZER OFFICIAL
 //JANGAN HAPUS NAMA SAYA, LU CUMA MAKE
-let { default: makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, downloadContentFromMessage, downloadHistory, proto, getMessage, generateWAMessageContent, prepareWAMessageMedia } = require('@adiwajshing/baileys')
+let { default: makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, downloadContentFromMessage, downloadHistory, proto, getMessage, generateWAMessageContent, prepareWAMessageMedia } = require('@danielteodoro/baileys-md')
 wm = global.wm
 let levelling = require('../lib/levelling')
 let fs = require('fs')
@@ -230,7 +230,7 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
 ┃⬡ Mode : ${global.opts['self'] ? 'Self' : 'publik'}
 ┃⬡ ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} බෑන් කරන ලද චැට්
 ┃⬡ ${Object.entries(global.db.data.users).filter(user => user[1].banned).length} පරිශීලකයින්
-┃⬡ スパムしないでください
+┃⬡ OWNER IS SUPUNA
 ┗━━━━━━━━━━━━━━━⬣`,
             buttonText: 'LIST MENU',
             listType: 1,
