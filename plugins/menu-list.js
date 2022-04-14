@@ -226,10 +226,10 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
             title: `${ucapan()}, ${name}`,
             description: `┏━━━━〔 *${wm}* 〕━━━⬣
 ┃⬡ WELCOME ${uptime}
-┃⬡ ${Object.keys(global.db.data.users).length} Pengguna
+┃⬡ ${Object.keys(global.db.data.users).length} සියලු චැට්
 ┃⬡ Mode : ${global.opts['self'] ? 'Self' : 'publik'}
-┃⬡ ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} Chat Terbanned
-┃⬡ ${Object.entries(global.db.data.users).filter(user => user[1].banned).length} Pengguna Terbanned
+┃⬡ ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} Chat 
+┃⬡ ${Object.entries(global.db.data.users).filter(user => user[1].banned).length} 
 ┃⬡ スパムしないでください
 ┗━━━━━━━━━━━━━━━⬣`,
             buttonText: 'LIST MENU',
@@ -245,94 +245,14 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
                 },{
                   "title": "INFO BOT",
                   "description": "Menu Info",
-                  "rowId": `${_p}? info`
+                  "rowId": `.ping`
                 }],
-                "title": "INFORMASI BOT"
+                "title": "speed BOT"
               }, {
                 "rows": [{
                   "title": `☰ SEMUA PERINTAH`,
                   "description": " Menu All",
-                  "rowId": '.? all'
-                  }, {
-                  "title": "☰ ABSEN & VOTING",
-                  "description": " Menu Absen",
-                  "rowId": `${_p}? absen`
-                }, {
-                  "title": "☰ ANIME MENU",
-                  "description": " Menu Anime",
-                  "rowId": `${_p}? anime`
-                }, {
-                  "title": "☰ STICKER & CONVERTER",
-                  "description": "Menu Sticker",
-                  "rowId": `${_p}? sticker`
-                }, {
-                  "title": "☰ DOWNLOADER MENU",
-                  "description": "Menu Downloader",
-                  "rowId": `${_p}? downloader`
-                }, {
-                  "title": "☰ EXP & LIMIT",
-                  "description": "Menu Exp",
-                  "rowId": `${_p}? xp`
-                }, {
-                  "title": "☰ FUN MENU",
-                  "description": "Menu Fun",
-                  "rowId": `${_p}? fun`
-                }, {
-                  "title": "☰ GAME MENU",
-                  "description": " Menu Game",
-                  "rowId": `${_p}? game`
-                }, {
-                  "title": "☰ GITHUB MENU",
-                  "description": "Menu Github",
-                  "rowId": `${_p}? github`
-                }, {
-                  "title": "☰ GROUP MENU",
-                  "description": " Menu Group",
-                  "rowId": `${_p}? group`
-                }, {
-                  "title": "☰ IMAGE MENU",
-                  "description": "Menu Image",
-                  "rowId": `${_p}? image`
-                }, {
-                  "title": "☰ INTERNET MENU",
-                  "description": "Menu Internet",
-                  "rowId": `${_p}? internet`
-                }, {
-                  "title": "☰ MAKER MENU",
-                  "description": "Menu Maker",
-                  "rowId": `${_p}? maker`
-                }, {
-                  "title": "☰ OWNER MENU",
-                  "description": "Menu Owner",
-                  "rowId": `${_p}? owner`
-                }, {
-                  "title": "☰ VOICE CHANGER",
-                  "description": "Menu Voice Changer",
-                  "rowId": `${_p}? suara`
-                }, {
-                  "title": "☰ PREMIUM MENU",
-                  "description": " Menu Premium",
-                  "rowId": `${_p}? premium`
-                }, {
-                  "title": "☰ QUOTES MENU",
-                  "description": "Menu Quotes",
-                  "rowId": `${_p}? quotes`
-                }, {
-                  "title": "☰ RPG MENU",
-                  "description": " Menu Rpg",
-                  "rowId": `${_p}? rpg`
-                }, {
-                  "title": "☰ STALKER MENU",
-                  "description": "Menu Stalker",
-                  "rowId": `${_p}? stalk`
-                }, {
-                  "title": "☰ SHORT LINK",
-                  "description": "Menu Short Link",
-                  "rowId": `${_p}? shortlink`
-                }, {
-                  "title": "☰ TOOLS MENU",
-                  "description": "Menu Tools",
-                  "rowId": `${_p}? tools`
+                  "rowId": '.menu   
                 }
                   ],
                 "title": "LIST MENU"
